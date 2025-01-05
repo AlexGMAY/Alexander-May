@@ -6,11 +6,35 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-} */
+/* Background and Text Colors */
+:root {
+  --primary: #2563eb; /* Replace with your primary color */
+  --primary-dark: #1e40af;
+  --background: #f9fafb;
+  --dark-background: #1f2937;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+}
+
+/* Utility Classes */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Link Hover Transition */
+a {
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button Styling */
+button,
+a {
+  cursor: pointer;
+}
+
 
 /* Custom Global Styles */
 body {
